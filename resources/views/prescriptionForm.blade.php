@@ -104,26 +104,21 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="delivery_time_slot" class="form-label">Delivery Time</label>
-                            <div class="d-flex">
-                                <input type="text" name="delivery_time_slot" class="form-control @error('delivery_time_slot') is-invalid @enderror me-2" id="delivery_time_slot" placeholder="Enter time (e.g., 08:00)">
-                                <select name="time_period" class="form-select @error('time_period') is-invalid @enderror" id="time_period">
-                                    <option selected value="">AM/PM</option>
-                                    <option value="AM">AM</option>
-                                    <option value="PM">PM</option>
-                                </select>
-                            </div>
-                            @error('delivery_time_slot')
-                            <span class="invalid-feedback" role="alert">
-                                <strong>{{ $message }}</strong>
-                            </span>
-                            @enderror
-                            @error('time_period')
-                            <span class="invalid-feedback" role="alert">
-                                <strong>{{ $message }}</strong>
-                            </span>
-                            @enderror
-                        </div>
+                <label for="delivery_time_slot" class="form-label">Select Time</label>
+                <select name="delivery_time_slot" class="form-select @error('delivery_time_slot') is-invalid @enderror" id="delivery_time_slot" aria-label="Default select example">
+                    <option selected value="">Select Time</option>
+                    <option value="10.00am">10.00am</option>
+                    <option value="12.00pm">12.00am</option>
+                    <option value="02.00pm">02.00pm</option>
+                    <option value="04.00pm">04.00pm</option>
+                    <option value="06.00pm">06.00pm</option>
+                </select>
+                @error('delivery_time_slot')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+                @enderror
+            </div>
 
                         <div class="mb-3">
                             <label class="form-label" for="image">{{ __('Image') }}</label>
