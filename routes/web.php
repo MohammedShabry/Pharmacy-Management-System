@@ -43,7 +43,7 @@ Route::get('/adminPresDetails', [App\Http\Controllers\HomeController::class, 'ad
 Route::get('/addQuantity', function () {
     return view('addQuantity');
 });
-
+//ss
 Route::get('/addQuantity', [App\Http\Controllers\HomeController::class, 'addQuantity'])->name('addQuantity');
 
 Route::post('addDrugs', [App\Http\Controllers\HomeController::class, 'addDrugs'])->name('addDrugs');
