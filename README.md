@@ -13,12 +13,12 @@ This is a simple solution for managing medical prescription uploads and quotatio
 
 **Table of Contents**
 
-*Introduction\
-*Features\
-*Installation\
-*Usage\
-*Screenshots\
-*Contributing
+-Introduction\
+-Features\
+-Installation\
+-Usage\
+-Screenshots\
+-Contributing
 
 **Introduction**\
 This project provides a platform where users can upload their medical prescriptions and pharmacies can prepare and send quotations for the uploaded prescriptions. It consists of two user levels: User and Pharmacy.
@@ -65,7 +65,7 @@ This project provides a platform where users can upload their medical prescripti
 
 **Screenshots**
 
-**User Registration**
+**User Profile**
 
 ![profile](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/b2e005ce-e8dc-40cb-8cb1-5374444f7432)
 
@@ -74,6 +74,12 @@ This project provides a platform where users can upload their medical prescripti
 
 **Quotation Details**
  ![quatation details 1](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/2fe846d1-932e-432a-a532-2d0f2e4ff9fc)
+
+ **User Accept or Reject Quotation**
+![quatation details](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/b53f8e26-3de4-41b6-8b3b-4ef31d70602f)
+
+**Prescription Records**
+![prescription records](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/2815eb06-30d0-4796-a092-485b7560c681)
 
 **Prepare Quotation**
 ![quatationForm](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/946d4faa-30e8-42f1-8e54-f584570b58fa)
