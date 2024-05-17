@@ -13,7 +13,7 @@ use DB;
 use App\Models\prescriptiondrugs;
 
 
-class HomeController extends Controller
+class pharmacyController extends Controller
 {
     /**
      * Create a new controller instance.
