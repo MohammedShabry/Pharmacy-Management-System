@@ -86,29 +86,29 @@ Users can accept or reject the quotations, and the pharmacy is notified of their
 **5. Screenshots**
 ---------------
 
-   **User Profile**
+   **User Profile - User**
 
 ![profile](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/b2e005ce-e8dc-40cb-8cb1-5374444f7432)
 
-   **Upload Prescription**
+   **Upload Prescription - User**
 ![prescriptionForm](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/0c6aeaa3-c8ed-414d-9585-8ec075475b93)
 
-   **Quotation Details**
+   **Quotation Details - User**
  ![quatation details 1](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/2fe846d1-932e-432a-a532-2d0f2e4ff9fc)
 
-   **User Accept or Reject Quotation**
+   **User Accept or Reject Quotation - User**
 ![quatation details](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/b53f8e26-3de4-41b6-8b3b-4ef31d70602f)
 
-   **Prescription Records**
+   **Prescription Records -Admin**
 ![prescription records](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/2815eb06-30d0-4796-a092-485b7560c681)
 
-   **Prepare Quotation**
+   **Prepare Quotation - Admin**
 ![quatationForm](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/946d4faa-30e8-42f1-8e54-f584570b58fa)
 
-   **Add New Drug**
+   **Add New Drug -Admin**
 ![addnewdrugForm](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/1aa79fea-53a3-4786-830c-e48a998525fa)
 
-   **Display All Users**
+   **Display All Users -Admin**
 ![all users](https://github.com/MohammedShabry/Pharmacy-Management-System/assets/99311998/73b2c6aa-4309-462a-9543-d16124f1978a)
 
 
