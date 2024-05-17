@@ -7,50 +7,65 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-**XITEB-PHARMACY-SYSTEM**
+# XITEB-PHARMACY-SYSTEM
 --------------------------
 
 This is a simple solution for managing medical prescription uploads and quotations, developed using Laravel.
 
 **Table of Contents**
----------------------
+--------------------
 
-      -Introduction\
-      -Features\
-      -Installation\
-      -Usage\
-      -Screenshots\
+      -Introduction
+      -Features
+      -Installation
+      -Usage
+      -Screenshots
 
-**Introduction**\
+**1. Introduction**
 -----------------
       This project provides a platform where users can upload their medical prescriptions and pharmacies can prepare and send quotations for the uploaded prescriptions. It consists of two user levels: User and Pharmacy.
 
-**Features**\
+**2. Features**
 --------------
-      **Part A: User Functionalities**\
-          **User Registration**: Users can register with the following fields:\
-           Name\
-           Email\
-           Address\
-           Contact Number\
-           Date of Birth\
-     **User Login**: Registered users can log in to the platform.\
-     **Upload Prescription**: Users can upload up to 5 images of their prescription, along with\
-           Note\
-           Delivery address\
-           Delivery time (2-hour time slots)\
-     **Part B: Pharmacy Functionalities**\
-     **View Uploaded Prescriptions**: Pharmacy user can view the prescriptions uploaded by users.\
-     **Prepare Quotations**: Pharmacy users can prepare quotations for the uploaded prescriptions.\
-     **Send Quotations to Users**: The prepared quotations are sent to the users and displayed in their accounts.\
-     **Accept/Reject Quotations**: Users can accept or reject the quotations, and the pharmacy is notified of their decision.\
+## Part A: User Functionalities
 
-**Installation**
+### User Registration
+Users can register with the following fields:
+- Name
+- Email
+- Address
+- Contact Number
+- Date of Birth
+
+### User Login
+Registered users can log in to the platform.
+
+### Upload Prescription
+Users can upload up to 5 images of their prescription, along with:
+- Note
+- Delivery address
+- Delivery time (2-hour time slots)
+
+## Part B: Pharmacy Functionalities
+
+### View Uploaded Prescriptions
+Pharmacy users can view the prescriptions uploaded by users.
+
+### Prepare Quotations
+Pharmacy users can prepare quotations for the uploaded prescriptions.
+
+### Send Quotations to Users
+The prepared quotations are sent to the users and displayed in their accounts.
+
+### Accept/Reject Quotations
+Users can accept or reject the quotations, and the pharmacy is notified of their decision.
+
+**3. Installation**
 ----------------
 
    To get a local copy up and running, follow these simple steps:
 
-   **1.Clone the repo:**   git clone https://github.com/your_username/your_repo.git \
+   **1.Clone the repo:**  https://github.com/MohammedShabry/Pharmacy-Management-System.git \
    **2.Install Composer dependencies**: composer install\
    **3.Create a copy of you .env file:**  cp .env.example .env\
    **4.Generate an application key:** php artisan key:generate\
@@ -58,7 +73,7 @@ This is a simple solution for managing medical prescription uploads and quotatio
    **6.Run the database migrations:**  php artisan migrate\
    **7.Start the development server:**  php artisan serve\
 
-**Usage**
+**4. Usage**
 ----------
 
    **1.Register as a User:** Navigate to the registration page and create a user account.\
@@ -68,7 +83,7 @@ This is a simple solution for managing medical prescription uploads and quotatio
    **5.Quotation Management:** Users can view the quotations, accept or reject them.\
 
 
-**Screenshots**
+**5. Screenshots**
 ---------------
 
    **User Profile**
